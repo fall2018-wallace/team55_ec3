@@ -18,16 +18,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "cleaned_data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "raw_data",
                     "output": "raw_data",
                     "type": "r_obj"
@@ -446,6 +436,16 @@
             ],
             "source": "evaluation.R",
             "target": "evaluation_matrix.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data_full",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleaned_data.csv"
         }
     ],
     "nodes": [
@@ -546,8 +546,10 @@
             "name": "Exploratoty_Data_Analysis4.R"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation4.R"
+            "name": "model_generation4.R",
+            "task_status": "in progress"
         },
         {
             "name": "test.csv"
@@ -593,6 +595,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-18 08:45:43",
+    "updated_at": "2018-12-18 09:56:16",
     "url": "https://github.com/fall2018-wallace/team55_ec3"
 }
