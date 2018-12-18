@@ -1,12 +1,8 @@
 {
     "collaborators": [
-        "jkachhadia",
-        "achandir",
-        "yash",
-        "eashani",
-        "rohanmahajan"
+        "drsharma"
     ],
-    "created_at": "2018-09-27 16:05:14",
+    "created_at": "2018-12-15 04:46:59",
     "edges": [
         {
             "ports": [
@@ -520,52 +516,38 @@
             "name": "clean_data_full.csv"
         },
         {
-            "assigned_to": "yash",
             "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
-            "name": "Understand_data.R",
-            "task_status": "completed"
+            "name": "Understand_data.R"
         },
         {
-            "assigned_to": "jkachhadia",
+            "assigned_to": "drsharma",
             "desc": "Remove redundant columns, handle missing data, transform data",
             "name": "clean.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "eashani",
             "desc": "use logistic regression to generate models for predictive analytics",
-            "name": "model_generation3.R",
-            "task_status": "completed"
+            "name": "model_generation3.R"
         },
         {
-            "assigned_to": "jkachhadia",
             "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
-            "name": "Exploratory_Data_Analysis1.R",
-            "task_status": "completed"
+            "name": "Exploratory_Data_Analysis1.R"
         },
         {
-            "assigned_to": "eashani",
             "desc": "",
-            "name": "Exploratory_Data_Analysis2.R",
-            "task_status": "completed"
+            "name": "Exploratory_Data_Analysis2.R"
         },
         {
-            "assigned_to": "rohanmahajan",
             "desc": "Visualization of columns from 19-23.",
-            "name": "Exploratory_Data_Analysis5.R",
-            "task_status": "completed"
+            "name": "Exploratory_Data_Analysis5.R"
         },
         {
-            "assigned_to": "yash",
             "desc": "EDA on few variables",
-            "name": "Exploratoty_Data_Analysis4.R",
-            "task_status": "completed"
+            "name": "Exploratoty_Data_Analysis4.R"
         },
         {
-            "assigned_to": "achandir",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation4.R",
-            "task_status": "completed"
+            "name": "model_generation4.R"
         },
         {
             "name": "test.csv"
@@ -589,36 +571,28 @@
             "name": "SatisfactionDayOfMonthPlot.png"
         },
         {
-            "assigned_to": "jkachhadia",
             "desc": "",
-            "name": "categorize_data.R",
-            "task_status": "completed"
+            "name": "categorize_data.R"
         },
         {
-            "assigned_to": "achandir",
             "desc": "",
-            "name": "Exploratory_Data_Analysis3.R",
-            "task_status": "completed"
+            "name": "Exploratory_Data_Analysis3.R"
         },
         {
-            "assigned_to": "jkachhadia",
             "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
-            "name": "model_generation2.R",
-            "task_status": "completed"
+            "name": "model_generation2.R"
         },
         {
-            "assigned_to": "rohanmahajan",
+            "desc": "Validate and compare models for accuracy",
+            "name": "evaluation.R"
+        },
+        {
+            "assigned_to": "not assigned",
             "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
             "name": "NaiveBayesEvaluation.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "achandir",
-            "desc": "Validate and compare models for accuracy",
-            "name": "evaluation.R",
-            "task_status": "completed"
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-08 05:30:17",
-    "url": "https://github.com/fall2018-saltz/team55"
+    "updated_at": "2018-12-18 08:45:43",
+    "url": "https://github.com/fall2018-wallace/team55_ec3"
 }
