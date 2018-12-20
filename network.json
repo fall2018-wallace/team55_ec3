@@ -440,7 +440,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "clean_data_full",
                     "type": "csv"
                 }
             ],
@@ -595,6 +595,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-20 03:34:59",
+    "updated_at": "2018-12-20 03:42:42",
     "url": "https://github.com/fall2018-wallace/team55_ec3"
 }
