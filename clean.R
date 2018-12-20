@@ -19,7 +19,7 @@ clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- 3.5
 clean_data$southeast<-as.factor(trimws(clean_data$Airline.Name)=='Southeast Airlines Co.')
 unique(clean_data$Satisfaction)
 clean_data_full=clean_data
-sample = sample.split(clean_data$Satisfaction, SplitRatio = .100)
+sample = sample.split(clean_data$Satisfaction, SplitRatio = .99)
 train = subset(clean_data, sample == TRUE)
 test  = subset(clean_data, sample == FALSE)
 clean_data = train
