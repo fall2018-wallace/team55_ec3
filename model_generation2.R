@@ -63,7 +63,7 @@ dataX <- as(data,"transactions")
 ruleset <- apriori(dataX, parameter=list(support = 0.3,confidence = 0.3))
 
 #subsetting to get only those rules that result into high overallCustSat
-sub<-subset(ruleset, subset = rhs %in% "Satisfaction=Not Satisfied")
+sub<-subset(ruleset, subset = rhs %in% "Satisfaction=Satisfied")
 #inspect to see those rules
 inspect(sub)
 
