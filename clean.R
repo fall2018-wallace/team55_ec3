@@ -23,3 +23,4 @@ sample = sample.split(clean_data$Satisfaction, SplitRatio = .1)
 train = subset(clean_data, sample == TRUE)
 test  = subset(clean_data, sample == FALSE)
 clean_data = train
+str(sample)
