@@ -239,16 +239,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data_full",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "clean_data_full.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "clean_data",
                     "type": "csv"
                 }
@@ -446,6 +436,16 @@
             ],
             "source": "clean.R",
             "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "clean_data_full.csv"
         }
     ],
     "nodes": [
@@ -595,6 +595,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-18 10:15:23",
+    "updated_at": "2018-12-20 03:34:59",
     "url": "https://github.com/fall2018-wallace/team55_ec3"
 }
